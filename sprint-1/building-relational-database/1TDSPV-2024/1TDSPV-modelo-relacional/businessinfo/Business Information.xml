@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="300AFAE7-A7D6-4E16-718F-B7B351246F09">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:49:14 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

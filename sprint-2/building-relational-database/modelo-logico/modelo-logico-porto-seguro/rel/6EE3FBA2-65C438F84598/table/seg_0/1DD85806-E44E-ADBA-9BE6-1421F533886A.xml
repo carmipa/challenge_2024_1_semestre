@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DD85806-E44E-ADBA-9BE6-1421F533886A" name="AGENDAMENTOS_OFICINAS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>F9E9B11F-F716-8503-E646-2DE0596FDC0C</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AGENDA_cod_agenda" id="8533AE33-B130-F540-7DE9-1BAA3C9C1F60">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>3D38F0F1-377C-E93B-77FF-45A9277450DC</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17198756-9D18-D9BD-DC0D-6D9B23ADE8A9" referredColumn="A0FC53A5-A25D-1DEB-2CA6-A29C65642F09"/>
+</associations>
+</Column>
+<Column name="cod_agenda_oficina" id="02E96364-E91C-E006-48D8-32C9FBB8EFF9">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>14E5B506-18AD-89A1-DAE3-C4F020708772</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFICINA_cod_oficina" id="AE8C2923-50BF-C46B-9532-5489B0913631">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>C01BA21F-EA74-D3FC-95FA-CCC917B264B1</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B8229FB-BD53-185B-F299-A3FD3525F65C" referredColumn="8EBA101D-EE0C-74B8-7E2F-9F1D684648FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D79B7E1F-BD15-FFC4-4669-BC197282FC7F" name="agenda_oficina_PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>D3739A41-F2F9-247E-9BAA-AB34BF735BEE</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E96364-E91C-E006-48D8-32C9FBB8EFF9"/>
+<colUsage columnID="8533AE33-B130-F540-7DE9-1BAA3C9C1F60"/>
+<colUsage columnID="AE8C2923-50BF-C46B-9532-5489B0913631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C21CD522-6F76-0090-EEE8-C973F7AFE007" name="agenda_oficina_AGENDA_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>1AFF101A-A6E2-CA69-DE1A-C1D3ED1F1C90</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8533AE33-B130-F540-7DE9-1BAA3C9C1F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48A81950-7045-8FD1-391F-CE364D814E7A" name="agenda_oficina_OFICINA_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>6E347918-CF94-D56A-BEA4-32985B074CE4</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE8C2923-50BF-C46B-9532-5489B0913631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

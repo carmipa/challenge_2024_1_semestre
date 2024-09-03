@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastre-se</h1>
+        <form>
+            <div class="form-control">
+                <input type="text" required>
+                <label for="Firstname">Nome completo</label>
+            </div>
+            <div class="form-control">
+                <input type="text" required>
+                <label for="nascimento">Data de nascimento</label>
+            </div>
+            <div class="form-control">
+                <input type="text" required>
+                <label for="profissao">Profissão</label>
+            </div>
+			<div class="form-control">
+                <input type="text" required>
+                <label for="nascionalidade">Nacionalidade</label>
+            </div>
+			<div class="form-control">
+                <input type="text" required>
+                <label for="logradouro">logradouro</label>
+            </div>
+			<div class="form-control">
+                <input type="text" required>
+                <label for="numero">Numero</label>
+            </div>
+			<div class="form-control">
+                <input type="text" required>
+                <label for="cep">cep</label>
+            </div>
+			<div class="form-control">
+                <input type="text" required>
+                <label for="estado">Estado</label>
+            </div>
+            <div class="form-control">
+                <input type="text" required>
+                <label for="estado">Complemento</label>
+            </div>
+            <button class="button">Cadastre-se</button>
+        </form>
+    </div>
+	<script>
+
+const labels = document.querySelectorAll('.form-control label');
+
+labels.forEach(label => {
+    label.innerHTML = label.innerText
+        .split('')
+        .map((letter, idx) => `<span style="transition-delay:${idx *45}ms">${letter}</span>`)
+        .join('')
+})
+</script>
+</body>
+</html>

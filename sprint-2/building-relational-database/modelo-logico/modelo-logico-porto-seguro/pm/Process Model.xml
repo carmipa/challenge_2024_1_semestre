@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="4FC5E69F-318D-980A-496E-FEB88BBDF5EC">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:42:06 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

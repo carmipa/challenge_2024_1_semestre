@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    color: #fff;
+    background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
+    /*background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px 53px;
+    border-radius: 18px;
+}
+
+ .container h1 {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid grey;
+    display: block;
+    width: 100%;
+    color: rgb(211, 206, 206);
+    padding: 12px 0;
+}
+
+.form-control {
+    margin: 20px 0 12px;
+    width: 340px;
+    position: relative;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: rgb(67, 147, 231);
+}
+
+.button {
+    width: 100%;
+    padding: 18px;
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 17px;
+    border-radius: 13px;
+    cursor: pointer;
+    border: 0;
+    display: inline-block;
+    background-color: rgb(67, 147, 231);
+}
+
+.button:active {
+    transform: scale(.96);
+}
+
+.container a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.form-control label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 19px;
+    min-width: 7px;
+    transition: 0.4s ease-in;
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span{
+    color: rgb(67, 147, 231);
+    transform: translateY(-40px);
+}

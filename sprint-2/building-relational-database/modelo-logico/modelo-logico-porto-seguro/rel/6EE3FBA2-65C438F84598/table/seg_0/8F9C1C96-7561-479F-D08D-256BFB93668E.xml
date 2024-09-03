@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F9C1C96-7561-479F-D08D-256BFB93668E" name="PAGAMENTOS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>B44F940E-E507-8C4A-3F3A-A86EDE5B0708</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_pagamento" id="6DF6E4AC-110D-7C82-0AC2-0A0D61666158">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>9B332830-E16C-5E9E-61AA-36C4CBD15A8F</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_pagamento" id="C1E3FCA9-2FC6-C507-1136-B96EBC245DAE">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>850333BD-462E-24B3-A901-7C88BC412425</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto" id="336FDFCB-EF32-BD5C-A4F2-E56AD30CB07F">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>28F21A5F-476C-847D-0D8A-1DD8281BAEE5</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parcelamento" id="7CFB4800-32DE-3449-C96D-BBC274F2116E">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>B08A26FD-7FF5-68A3-9668-2AFC5108AAC6</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_com_desconto" id="1C7F982E-53EB-CC5C-962D-9CD79FD8FBD6">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>240E293F-B6A9-D7C2-803D-B705A4960E53</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D49A128-C144-18E2-F51E-049DCA240EBE" name="PAGAMENTO_PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>84069E4F-389A-0692-D025-3668DA472E69</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DF6E4AC-110D-7C82-0AC2-0A0D61666158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

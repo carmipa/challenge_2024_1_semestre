@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\Workspace-2024\challenge-2024\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1089098008.index
+2603657112.index
+3401016936.index
+3736128969.index
+3515156857.index
+343095766.index

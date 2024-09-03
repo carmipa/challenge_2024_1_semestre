@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="69D7E6E0-F212-DDE1-568E-70A1AB4B838F" mainViewID="CEBC8095-6FA0-377E-66E1-B56F64853CE6">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:49:13 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

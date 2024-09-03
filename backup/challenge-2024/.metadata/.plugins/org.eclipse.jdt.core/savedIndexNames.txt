@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+D:\Workspace-2024\challenge-2024\.metadata\.plugins\org.eclipse.jdt.core
+3506280655.index
+1865797976.index
+3413270776.index
+2710593394.index
+4066881767.index

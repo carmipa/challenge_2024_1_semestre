@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1A803FD-92E9-11ED-C668-CFA96DDC66D5" name="CONTATO">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:09:53 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_contato" id="83180188-D5E7-B718-DE0D-66F3B5A288D4">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:10:05 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_contato" id="B89EB746-DC3F-32F8-9293-526D3CD2E5E7">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:10:19 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="celular_contato" id="914109AD-96A3-EC1D-7012-0949031030CA">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:10:29 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_contato" id="09E1AC93-3823-E4E0-9D21-A7119C600695">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:10:39 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacao_contato" id="B0EE7416-AC9F-20BA-F840-7A2D4EEF9C5A">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:10:49 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cli" id="B38A8A89-6521-41E5-204E-344FCD0B0401">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:11:39 UTC</createdTime>
+<generatorID>0419729B-F903-2839-EF21-9FE3919AB538</generatorID>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<referedAttribute>5BF0AC0D-C2AD-9CFF-0D66-152622F047B2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9440C8D8-B799-05A7-A865-73F9AF4E904C" name="CONTATO PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:10:17 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83180188-D5E7-B718-DE0D-66F3B5A288D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

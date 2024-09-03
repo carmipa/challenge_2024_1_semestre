@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="41848961-4A4C-5D79-C51D-F023CA6B958D">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:47:55 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<targetPk>A067EC16-4BDB-3EE3-F20C-212848E51F64</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A1F66241-ED2A-1531-98C3-16C698BD87E7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>116B7F37-E9B1-08CE-A5D9-721B9F4FD036</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

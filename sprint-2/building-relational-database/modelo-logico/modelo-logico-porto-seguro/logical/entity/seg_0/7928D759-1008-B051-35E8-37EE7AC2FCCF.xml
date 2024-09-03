@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7928D759-1008-B051-35E8-37EE7AC2FCCF" name="ENDERECOS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:44:00 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_endereco" id="8FF3513F-DD08-4D41-6BA5-C2BB8667CADC">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:44:14 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="6C7EF0DA-2568-3452-F448-42F66F89D509">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:44:51 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="F28D2050-D835-DB1F-5648-3700ECABB5C1">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:45:03 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="ECE146F8-FCFE-9DD0-EDB2-396850B91E8B">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:45:38 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="345E860F-13C2-3804-5A8B-7AC14EA4CE7A">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:45:53 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="12AC96D9-29AC-B420-E921-9B099F321C5B">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:46:07 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FCB2D5F-E93B-F410-9FBD-A658975D917D" name="ENDERECO PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:44:24 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FF3513F-DD08-4D41-6BA5-C2BB8667CADC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17198756-9D18-D9BD-DC0D-6D9B23ADE8A9" containerWithKeyObject="1DD85806-E44E-ADBA-9BE6-1421F533886A" localFKIndex="C21CD522-6F76-0090-EEE8-C973F7AFE007" name="agenda_oficina_AGENDA_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>1AFF101A-A6E2-CA69-DE1A-C1D3ED1F1C90</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<referredTableLongName>AGENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17202237-51BB-F5AE-2EA5-389963CA0140</referredTableID>
+<keyObject>50CE737A-F39E-37C5-35FD-DE8C1515DAD1</keyObject>
+<referredKeyID>50CE737A-F39E-37C5-35FD-DE8C1515DAD1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_agenda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

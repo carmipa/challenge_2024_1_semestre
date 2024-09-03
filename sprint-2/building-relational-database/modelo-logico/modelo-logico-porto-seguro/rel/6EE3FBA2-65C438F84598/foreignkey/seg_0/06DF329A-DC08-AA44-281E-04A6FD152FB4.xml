@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06DF329A-DC08-AA44-281E-04A6FD152FB4" containerWithKeyObject="17202237-51BB-F5AE-2EA5-389963CA0140" localFKIndex="D16429A7-9D53-5D51-C69F-AE584D580853" name="AGENDA_CLIENTE_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>7730F740-AE95-58D7-E9A8-F5E5B15D5CA5</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<referredTableLongName>CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99C40129-1440-EFF6-3FE2-DFDF2705EC08</referredTableID>
+<keyObject>EE6AE422-59C3-668D-5707-AE12B9AD2472</keyObject>
+<referredKeyID>EE6AE422-59C3-668D-5707-AE12B9AD2472</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cod_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

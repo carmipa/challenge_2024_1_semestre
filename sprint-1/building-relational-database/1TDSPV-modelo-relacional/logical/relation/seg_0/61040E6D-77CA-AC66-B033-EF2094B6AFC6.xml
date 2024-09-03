@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="61040E6D-77CA-AC66-B033-EF2094B6AFC6">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:04:51 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<sourcePk>98526795-55E4-BEFF-E475-C04A42C34EAC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FCE1BB82-93C2-D21D-F9EA-C98213030F7B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02AFDF0D-5250-7ABC-4A44-B2D759EBB620</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

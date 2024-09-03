@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0FAA119-557D-0E5C-46C0-565E528E44B1" name="ENDERECO">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:51:46 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_endereco" id="14E92827-806C-0C92-53BB-0E3C19C8FBB4">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:51:53 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro_endereco" id="62048BA6-BF75-D1D6-F343-68B0DB1113B7">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:52:13 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_endereco" id="DDE0322E-D21C-FD27-CBD4-2D37987ACCC3">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:52:21 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep_endereco" id="32817158-3696-B68F-D458-FD6D8A964CFA">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:52:28 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_endereco" id="EEAB45B1-C54C-DCB6-5999-45145BE31BD3">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:52:53 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento_endereco" id="B7020561-C021-7AAE-C345-F9D768E419CB">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:53:09 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacao_endereco" id="2D06114E-72F5-C437-564C-F971DB37F260">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:53:16 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cli" id="F0AC556E-3610-067D-449A-E08819E866AD">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:53:43 UTC</createdTime>
+<generatorID>D1CB42D6-E700-F40B-5A78-4BF4CE3C3A09</generatorID>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5BF0AC0D-C2AD-9CFF-0D66-152622F047B2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E69DF1CD-833C-1AB9-5B73-5B171D19BC2A" name="ENDERECO PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:52:12 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14E92827-806C-0C92-53BB-0E3C19C8FBB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

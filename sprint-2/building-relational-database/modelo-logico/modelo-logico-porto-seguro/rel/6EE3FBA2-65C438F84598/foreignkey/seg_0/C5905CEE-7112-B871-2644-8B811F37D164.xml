@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5905CEE-7112-B871-2644-8B811F37D164" containerWithKeyObject="588C3F06-9042-F91E-4E55-A0CB55D27FC2" localFKIndex="2FB5FA26-AE1A-F3AE-0DE1-4B7D07589575" name="ORCAMENTO_PAGAMENTO_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>C80D4DC2-2103-CEB1-D414-B262459CDFAD</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<referredTableLongName>PAGAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F9C1C96-7561-479F-D08D-256BFB93668E</referredTableID>
+<keyObject>4D49A128-C144-18E2-F51E-049DCA240EBE</keyObject>
+<referredKeyID>4D49A128-C144-18E2-F51E-049DCA240EBE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cod_pagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

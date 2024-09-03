@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17202237-51BB-F5AE-2EA5-389963CA0140" name="AGENDAMENTOS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>B1C59716-EB71-9227-C724-CA07E18E1B40</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_agenda" id="A0FC53A5-A25D-1DEB-2CA6-A29C65642F09">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>1212F76D-872F-C168-DB6B-4B58D27A2E85</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_agendamento" id="172254B4-AC3D-B84C-BE31-70F97DE5D952">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>6CEB4255-84C6-059E-D689-A368EDADEF69</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacao" id="C2D180CD-339A-87BF-2FE4-3FBC3AEEE8C9">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>676E7612-30BF-B775-8062-7F49D11474FC</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_cod_cliente" id="C9B4D21C-C5A4-C559-0619-18FFE7EB222B">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>49FB50EF-7E72-2BCE-8C11-6D703A037C55</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06DF329A-DC08-AA44-281E-04A6FD152FB4" referredColumn="70FA3A07-1A90-26C4-6C3D-F6F5C3426F46"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50CE737A-F39E-37C5-35FD-DE8C1515DAD1" name="AGENDA_PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>AA331165-CF58-A295-1159-A19EEDF625B1</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0FC53A5-A25D-1DEB-2CA6-A29C65642F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D16429A7-9D53-5D51-C69F-AE584D580853" name="AGENDA_CLIENTE_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>7730F740-AE95-58D7-E9A8-F5E5B15D5CA5</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9B4D21C-C5A4-C559-0619-18FFE7EB222B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

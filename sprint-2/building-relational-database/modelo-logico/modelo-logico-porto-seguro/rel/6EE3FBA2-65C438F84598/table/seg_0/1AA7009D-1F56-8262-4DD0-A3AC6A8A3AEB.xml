@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AA7009D-1F56-8262-4DD0-A3AC6A8A3AEB" name="VEICULOS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>A1F66241-ED2A-1531-98C3-16C698BD87E7</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_veiculo" id="94CFE419-3720-D3B2-9C32-12A6B9E1D295">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>A121319A-8F32-D935-E0CD-0C9AAECFF750</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="38CE6D90-B267-7616-D671-55A9214AD09A">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>347CF599-D98E-BB9B-F876-22C6D9B1A2EA</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="59BA10B8-E1E6-19D4-4675-D382CFD5AD2F">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>37387433-BC9A-970E-ACFE-4AA946A8017C</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="montadora" id="E9832278-FCD7-5ABA-6D7C-22C559727EFF">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>C6EFE057-94BD-FF0A-A9C2-8A04F5EC1BBB</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motor" id="4EB71B61-1A53-2C29-1CED-67B08C598943">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>4381B618-AC14-98C7-BE13-D7CF18C97C26</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_fabricacao" id="13D96DF3-3882-249F-4D4D-0E953C66ABCC">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>C3962DAE-90A1-2912-FA58-304FA7BEBD4A</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="135D9CDA-53ED-928E-4E84-64E461AD00FC">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>78EAE42D-24E8-E6BE-27D7-A7146F17670E</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proprietario" id="0E1AC53B-0FDD-F360-0538-D2000A2CA7B7">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>717FBFC2-BBBC-1107-87E8-8B35C5CB97C3</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacao" id="5DBB643A-BDFE-77A1-6F98-D30816733B81">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>4435A1EE-C625-3736-D0E6-F5A50ED5D56E</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_cod_cliente" id="8AA71824-909C-E861-6033-C40821AC25AD">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>A219CD85-7AD9-B600-1B39-21C962581536</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9CA0213-D6FD-0C79-7D4F-5F633A3ABCC9" referredColumn="70FA3A07-1A90-26C4-6C3D-F6F5C3426F46"/>
+</associations>
+</Column>
+<Column name="OFICINA_cod_oficina" id="48D7767D-B16D-3DA1-9E06-C4365FBD1925">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>9AACD402-9BD2-6FF7-67E2-4EC3088CAFC2</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D59C1FD-3229-D149-7BC4-2F7CB789C68E" referredColumn="8EBA101D-EE0C-74B8-7E2F-9F1D684648FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14228E55-7152-172E-12D9-B5A05C114EF0" name="VEICULOS_PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>76422230-EE2B-3F6F-4470-82DE54E9B2E1</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94CFE419-3720-D3B2-9C32-12A6B9E1D295"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A149A1C5-592D-EC5F-FB13-C986D93A97C6" name="VEICULOS_CLIENTE_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>1A1DB454-406B-0E08-D7C5-75CCF1622517</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AA71824-909C-E861-6033-C40821AC25AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47E0B2AB-0EF1-E9B5-6378-C4A34D31DF1B" name="VEICULOS_OFICINA_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>41848961-4A4C-5D79-C51D-F023CA6B958D</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48D7767D-B16D-3DA1-9E06-C4365FBD1925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

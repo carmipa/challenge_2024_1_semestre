@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="380E4E36-882F-7F70-CE83-6DE21930824E" name="CLIENTES_PAGAMENTOS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:51:07 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_cliente_pagamento" id="BB28D04B-7311-3E33-60BF-12057F0EF626">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:51:17 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="1CFC59AB-9461-9C84-4F55-E816DED1162F">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:51:39 UTC</createdTime>
+<generatorID>3BEC890A-DF49-AADA-B38C-99EF370082B5</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<referedAttribute>D0F05EBD-E7A4-89C5-B9E7-FE9D4726C09B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_pagamento" id="40697BEF-0D05-C570-E21C-7DCB750BA8FB">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:51:46 UTC</createdTime>
+<generatorID>6BBD877F-039D-4451-C2D9-B5E463C3B3DB</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<referedAttribute>9B332830-E16C-5E9E-61AA-36C4CBD15A8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75340736-343B-8AA8-D68C-00A51DAC48AD" name="CLIENTE_PAGAMENTO PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:51:31 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB28D04B-7311-3E33-60BF-12057F0EF626</attributeRef>
+<attributeRef>40697BEF-0D05-C570-E21C-7DCB750BA8FB</attributeRef>
+<attributeRef>1CFC59AB-9461-9C84-4F55-E816DED1162F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

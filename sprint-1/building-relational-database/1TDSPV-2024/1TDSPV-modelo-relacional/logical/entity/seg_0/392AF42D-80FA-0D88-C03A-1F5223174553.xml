@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="392AF42D-80FA-0D88-C03A-1F5223174553" name="OFICINA">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:56:35 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_oficina" id="C9B34153-9981-B470-200E-D35D38149B50">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:56:45 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoProblema_oficina" id="3087E127-4F8C-6C3E-E1BE-C0B530C018B2">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:56:54 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diagnostico_oficina" id="54924A12-E495-D0B4-091F-6E69AE36970F">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:57:08 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="partesAfetadas_oficina" id="97E25A29-45E6-DBEB-95AB-8FA09524F7B9">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:57:17 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pecasUsadas_oficina" id="05AABCE8-2D26-2D2D-899D-A8F95DFBD8E0">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:57:32 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacao" id="4866971D-5FF8-C490-035A-A281105AA161">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:57:52 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cli" id="56B4A6DC-08D8-AC56-330F-0FDF913828C4">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:58:43 UTC</createdTime>
+<generatorID>FC591830-212E-68C2-7F2B-EF9D2B2B7686</generatorID>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<referedAttribute>5BF0AC0D-C2AD-9CFF-0D66-152622F047B2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C4D7EB6-A5DE-BF29-6DBD-9EE842F29CAD" name="OFICINA PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 13:56:52 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9B34153-9981-B470-200E-D35D38149B50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

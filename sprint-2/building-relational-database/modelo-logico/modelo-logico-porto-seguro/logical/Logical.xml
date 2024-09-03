@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5A4523A5-0DBA-EC59-60AE-E08E8B8C4BAE" mainViewID="FEFB00EA-A884-B5DC-5B38-C2113B4ADA50">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:42:06 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

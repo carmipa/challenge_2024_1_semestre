@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6161C49B-22AF-4678-17BF-7E6A590DF603" name="OFICINAS_ORCAMENTOS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:09:36 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_oficina_orcamento" id="7710E4BD-DBDB-65D7-74C6-FB9E326A717E">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:09:53 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_oficina" id="E1A113EF-3E1B-8E43-68A0-9B7032E078C5">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:10:23 UTC</createdTime>
+<generatorID>958E0E2B-418F-B68A-F1CE-43F66FA7386E</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<referedAttribute>38B77E90-12C7-1018-B3A9-6C534739E640</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_orcamento" id="4FB6ABF7-298A-A9D2-EC99-91AB0C4425AF">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:10:33 UTC</createdTime>
+<generatorID>25D60DD1-CAE0-FECE-7487-BE62AF44EF9B</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="true"/>
+</engineerTo>
+<referedAttribute>61AD7743-924F-0DB6-45B9-0C4F8B98FF5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B099C30-4787-FA45-286A-DC997A405796" name="oficina_orcamento PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:10:12 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6EE3FBA2-D7E1-6BAE-938B-65C438F84598" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7710E4BD-DBDB-65D7-74C6-FB9E326A717E</attributeRef>
+<attributeRef>E1A113EF-3E1B-8E43-68A0-9B7032E078C5</attributeRef>
+<attributeRef>4FB6ABF7-298A-A9D2-EC99-91AB0C4425AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E0A0679-0ECA-5083-BCBB-CC083E69188D" name="CLIENTES_VEICULOS">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>24CB4809-A0DD-94B3-3B7C-538EA49F7C2A</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_veiculo_cliente" id="C7CDF587-CFE4-F850-C0FD-C41F40F200F1">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>AB49F6FC-9861-C374-437A-DE9D6C52CE13</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_cod_cliente" id="B26485A3-5B05-1DE8-F059-514C245E48B1">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>9E424979-3D9F-9970-1148-C658E1267E4B</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72783572-31B0-98F3-1881-A4C514D00EFD" referredColumn="70FA3A07-1A90-26C4-6C3D-F6F5C3426F46"/>
+</associations>
+</Column>
+<Column name="VEICULOS_cod_veiculo" id="CA3EBBF4-BC52-0E36-FA21-87328E59982C">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>1E751653-68FA-F684-515F-4C788ECE2D89</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DE3FAEF-F0E6-1D1F-9C7F-889A33A11B3D" referredColumn="94CFE419-3720-D3B2-9C32-12A6B9E1D295"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EE811A8-589C-C15F-F3AB-4531D3B5A33D" name="CLIENTE_VEICULOS_PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>95F0AA15-ACBF-EBC3-F913-1FE197CA4F0F</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B26485A3-5B05-1DE8-F059-514C245E48B1"/>
+<colUsage columnID="CA3EBBF4-BC52-0E36-FA21-87328E59982C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB03F853-66C2-8FA9-B9B6-CEC791B7C189" name="CLIENTE_VEICULOS_CLIENTE_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>5F19CAD2-212C-1898-CC04-5CBA378C0FA6</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B26485A3-5B05-1DE8-F059-514C245E48B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED6EDCB0-D227-A272-38DD-99BDBFDA41DE" name="CLIENTE_VEICULOS_VEICULOS_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-14 11:57:23 UTC</createdTime>
+<generatorID>E0AC21CE-5E25-F0B4-B52A-FE32878E01C7</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA3EBBF4-BC52-0E36-FA21-87328E59982C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

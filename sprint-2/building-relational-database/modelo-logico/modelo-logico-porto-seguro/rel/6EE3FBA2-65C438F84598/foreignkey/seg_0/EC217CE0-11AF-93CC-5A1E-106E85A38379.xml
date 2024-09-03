@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC217CE0-11AF-93CC-5A1E-106E85A38379" containerWithKeyObject="630D1EB2-FFD9-C712-F78E-6E78428EF86B" localFKIndex="27A0C740-6240-FA9F-24E3-D939EFCFA7CC" name="oficina_orcamento_ORCAMENTO_FK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 17:15:08 UTC</createdTime>
+<generatorID>25D60DD1-CAE0-FECE-7487-BE62AF44EF9B</generatorID>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<referredTableLongName>ORCAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>588C3F06-9042-F91E-4E55-A0CB55D27FC2</referredTableID>
+<keyObject>2ABF6805-F078-DEFE-567E-5368883D1E70</keyObject>
+<referredKeyID>2ABF6805-F078-DEFE-567E-5368883D1E70</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_orcamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

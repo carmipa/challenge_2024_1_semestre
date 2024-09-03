@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D4368E7-E559-E0E4-E4E9-9587AF5D0EED" name="AGENDA">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:09 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_agenda" id="5AC27B9D-F134-9B78-301F-E5A26F12C173">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:17 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia_agenda" id="8B93D406-27B3-E77F-4343-BD076601DD5C">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:24 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mes_agenda" id="079CC8F3-27EB-B616-61E0-498DF0B35EEA">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:31 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_agenda" id="8DF7DCC3-B5CE-4002-14C2-570EAA939B9D">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:38 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diaSermana_agenda" id="D89AC403-1686-F17A-143E-8034E25BEE13">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:47 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacao" id="65ED90F3-2AA5-4514-1E3C-E976AEFC0AC9">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:57 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cli" id="70EA9D3D-E678-4C7D-08CB-ACAD3ED49665">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:01:52 UTC</createdTime>
+<generatorID>0FE44FE9-3A00-FA89-47C4-382085DCF18F</generatorID>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<referedAttribute>5BF0AC0D-C2AD-9CFF-0D66-152622F047B2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8741E5C6-3BFF-9EFB-6CB4-DC18406E7805" name="AGENDA PK">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-04-21 14:00:22 UTC</createdTime>
+<ownerDesignName>1TDSPV-modelo-relacional</ownerDesignName>
+<engineerTo>
+<item key="E67DAF25-EEA4-C77B-B80D-2129A48273C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AC27B9D-F134-9B78-301F-E5A26F12C173</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

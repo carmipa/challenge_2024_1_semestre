@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo-logico-porto-seguro" id="8BB9B872-E00B-6152-B812-83A8AD313FB2" version="3.5">
+<createdBy>Carminati</createdBy>
+<createdTime>2024-05-13 16:42:05 UTC</createdTime>
+<ownerDesignName>modelo-logico-porto-seguro</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8BB9B872-E00B-6152-B812-83A8AD313FB2</designId>
+</OSDM_Design>
